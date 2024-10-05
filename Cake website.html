@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">,,
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Website</title>
+    <link rel="stylesheet"  href="Cake.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<nav>
+  <ul class="sidebar">
+    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#menu">MENU</a></li>
+    <li><a href="#service">SERVICE</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </ul>
+  <ul>
+    <li style="font-size: 40px;"><a href="#hero"><b>CAKE</b></a></li>
+    <li class="hideOnMobile"><a href="#home">HOME</a></li>
+    <li class="hideOnMobile"><a href="#about">ABOUT</a></li>
+    <li class="hideOnMobile"><a href="#menu">MENU</a></li>
+    <li class="hideOnMobile"><a href="#service">SERVICE</a></li>
+    <li class="hideOnMobile"><a href="#contact">CONTACT</a></li>
+    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+  </ul>
+</nav>
+<script>
+  function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+  }
+  function hideSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+  }
+</script>
+       
+    <section id="hero">
+        <div class="hero1">
+<img src="https://coolwallpapers.me/picsup/6021758-cake-chocolate-icing.jpg" width="100%">
+</div>
+    </section>
+ <section id="home">
+    <div class="sec1">
+ <h1>Delicious Cake For Everyone</h1><br>
+<em><h3>Custom cake that only look incredible <br><br>but also floor you with their savory taste </h3></em>
+<br>
+<em><h3>Are you looking for sweet stylish and delicious cake</h3></em>
+    </div>
+    <div class="sec2">
+        <img src="cake1.jpg" height="90%" width="70%">
+    </div>
+ </section>
+ <section id="about">
+  <div class="About">
+    <h1>About Us</h1>
+  </div>
+<div class="box">
+    <div class="box1">
+<h2 style="color: brown; font-size: 40px;font-size: 40px;">Who are we?</h2><br>
+<h3>Over the years, we have created hundreds of custom cakes for a large variety of special occassions, Based on our years of experience, we known what works grate and what touches you can trustfully add to your custom wedding cake or custom specially Cake.</h3>
+    </div>
+    <div class="box2">
+        <h2 style="color: brown; font-size: 40px;">How we work?</h2><br>
+        <h3>We will guide you and help you with your selections to ensure that you & your wedding or specialy cake make a greate impression on your guests and help make a fantastic and memorable impression for year to come.if you can imagine it we can create it! </h3>
+    </div>
+    <div class="box3">
+        <h2 style="color: brown;font-size: 40px;">Quality products</h2><br>
+        <h3>Top quality ingredients make our cakes authentic & really yummy. All of our products are freshly bake,We give each cake individual attention toensure the best possible product,Rest assumed, your cake & super cake will taste their absolute best! </h3>
+    </div>
+</div>
+ </section>
+<h1 style="color: rgb(79, 8, 8); padding-top: 50px; font-size: 70px;"  class="Menu"><em>Menu</em></h1>
+ <section id="menu">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://cookiesandcups.com/wp-content/uploads/2022/09/cannoli-cake-16-570x713.jpg" alt="" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1  style="color: brown;font-size: 30px;">Canoli Cake</h1> <br> 
+            <p style="color:black;">Our canoli cake is filled with chocolate mousse made with the finest ricotta cheese.Three chocolate layer are surrounded by more chocolate mousse.Chocolate fudge and mini chocolate chips topped with even more canoli filling and individual canolis. it's lovely to look at and even better to eat! </p> 
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.9YODCeW26m2RrWbNwloNzAHaHa&pid=Api&P=0&h=180" alt="" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1  style="color: brown;font-size: 30px;">Chocolate Mousse Cake</h1> <br> 
+            <p style="color:black;">Chocolate decadence! Chocolate layer of cake with a creamy chocolate mousse filling.Shall we say more</p> 
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://www.warmoven.in/media/catalog/product/cache/e4dbbe88580d6bb18ca174b8700f08f3/image/15945da/special-death-by-chocolate-cake.png" alt="" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1  style="color: brown;font-size: 30px;">Chocolate Suicide</h1> <br> 
+            <p style="color:black;">Four fabulous layers of soft and moist chocolate cake surrounded by our rich chocolate fudge icing. Topped with a layer of chocolate fudge,imported European chocolate shavings and surrounded by sinful chocolate curls.</p> 
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.Lz7OHUTLDFMGOiMFocTBgwHaF7&pid=Api&P=0&h=180" alt="" style="width:300px;height:300px;">
+            <!-- <img src="https://i.redd.it/uhr2a8nnu0131.jpg" alt="" style="width:300px;height:300px;"> -->
+          </div>
+          <div class="flip-card-back">
+            <h1  style="color: brown;font-size: 30px;">Death By Chocolate</h1> <br> 
+           <b> <p style="color:black;">fabulous and flourless, dark chocolateganache cake. </p></b>
+          </div>
+        </div>
+      </div>
+ </section>
+ <section>
+  <div class="container">
+    <!-- <img src="https://inbloombakery.com/wp-content/uploads/2021/05/Chocolate-Berry-Cake-2-1.jpg" alt="Cake" width="100%" height="700vh"> -->
+    <!-- <img src="https://c.tenor.com/aJHOu6MgYJYAAAAd/tenor.gif" /> -->
+    <img src="https://66.media.tumblr.com/491d48199294f22bfc6213f8ecff29fe/tumblr_phuyp67EeH1x3wtddo2_400.gif" height="500vh" width="100%"/>
+  </div>
+ </section>
+<section id="service">
+  <div class="sec3">
+    <h2 style="color:brown; text-align: center; font-size: 40px;">Services</h2>
+    <br>
+    <h3 style="color:rgb(61, 6, 6);">
+      Opt for Fast Online Cake Delivery Service to Surprise Your Loved Ones
+  <br>
+      FlowerAura understands the importance of celebrating occasions and special moments without worrying about the cake delivery delay. Hence, we deliver the finest cakes within hours through efficient and on-time online cake delivery. To make your experience more convenient, we provide free shipping on our standard delivery services. You can choose from delivery slots (every slot is three hours, like 3 PM to 6 PM).
+      <br>
+      Apart from the same-day cake delivery, FlowerAura also provides a midnight cake delivery service. We deliver freshly baked cakes between 11 PM and midnight. With FlowerAura, leave the worries of delay in your cake delivery, as our expanded network and efficient team ensure that your cake reaches its destination on time and in pristine condition. Order now!  
+     </h3>
+    </div>
+</section>
+ 
+<footer id="contact">
+ <div class="Box">
+  <div class="box8">
+    <h1>Company</h1><br>
+    <p>Home</p><br>
+    <p>About</p><br>
+    <p>Menu</p><br>
+    <p>Service</p><br>
+    <p>Contact</p><br>
+      </div>
+      <div class="box9">
+          <h1>Get Help</h1><br>
+          <p>FAQ</p><br>
+          <p>Shipping</p><br>
+          <p>Returns</p><br>
+          <p>Order Status</p><br>
+          <p>Payment Option</p><br>
+                  </div>
+                  <div class="box10">
+                      <h1>Category</h1><br>
+                      <p>Custome Cake </p><br>
+                      <p>Chocolate Cake</p><br>
+                      <p>Canoli-cut Cake</p><br>
+                      <p>Death Chocolate Cake</p><br>
+                  </div>
+ </div>
+</footer>
+
+<section id="section4">
+  <div class="box11">
+      <img src="WHATS.png" height="70px"/>
+  </div>
+  <div class="box12">
+      <img src="instra1.png"  height="50px"/>
+  </div>
+
+  <div class="box13">
+      <img src="twit.png" height="50px"/>
+  </div>
+  <div class="box13">
+      <img src="face.png" height="50px" />
+  </div>
+</section>
+
+</body>
+</html>
